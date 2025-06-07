@@ -58,8 +58,7 @@ function gameRound(computerChoice, playerChoice){
   }
 
 }
-console.log(playerPoint);
-console.log(computerPoint);
+
 
 function playGame(){
   while(playerPoint + computerPoint!=5){
