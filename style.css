@@ -1,0 +1,81 @@
+
+.whole{
+    border-style: solid;
+    border-color: aqua;
+    border-width: 5px;
+    margin-top: 60px;
+    margin-left: 130px;
+    width:1000px;
+    height:350px;
+    padding: 20px;;
+    border-radius: 5px;
+
+}
+
+body{
+    background-color: black;
+    
+    
+    
+}
+h1{
+    font-size: xx-large;
+}
+
+.headingDiv{
+    text-align: center;
+    color: azure;
+    text-shadow:  5em aqua;
+}
+p{
+    font-size:x-large;
+    font-style: italic;
+    }
+
+.buttons{
+    gap:30px;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    height: 50px;
+    width: 110px;
+    background-color: black;
+    border: 3px solid aqua;
+    color: azure;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: azure;
+    color: black;
+    transform: scale(1.2)
+}
+
+#finalResult{
+    text-align: center;
+    color: azure;
+    font-size:x-large;
+    font-weight: bolder;
+    font-style: italic;
+}
+.scores{
+    text-align: center;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin:30px;
+    font-size: x-large;
+}
+
+#playerScore{
+    color: rgb(116, 242, 96);
+    font-weight: bold;
+}
+#computerScore{
+    color:rgb(255, 105, 180) ;
+    font-weight: bold;
+}
